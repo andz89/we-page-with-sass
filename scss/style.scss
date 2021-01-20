@@ -1,6 +1,7 @@
+
 @import 'config';
-
-
+@import 'utilities';
+@import 'buttons';
 
 // _style.scss
 * {
@@ -57,12 +58,14 @@
       img{
         width: 50%;
       }
+
+      h1 {
+        font-size: 50px;
+        line-height: 1.2;
+      }
+      p {
+        margin: 20px 0;
+      }
     }
   }
 
-  .container {
-    max-width: 1100px;
-    padding: 0 30px;
-    margin: 0 auto;
-    overflow: auto;
-  }
